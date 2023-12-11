@@ -28,6 +28,30 @@ header::before {
 .header-content p{
     font-size: 3rem;
 }
+.header-content p::after {
+    content: " |";
+    animation-name:typing ;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+} 
+@keyframes typing {
+    0% {content: " D|";}
+    2% {content: " De| ";}
+    4% {content: " Des|";}
+    6% {content: " Desi|";}
+    8% {content: " Desig|";}
+    10% {content: " Design|";}
+    12% {content: " Designe|";}
+    14% {content: " Designer|";}
+    16% {content: " Designe|";}
+    18% {content: " Design|";}
+    20% {content: " Desig|";}
+    22% {content: " Desi|";}
+    24% {content: " Des|";}
+    26% {content: " De|";}
+    28% {content: " D|";}
+    30% {content: " |";}
+}
 /* end header */
 /* start about */
 
@@ -92,8 +116,8 @@ position: relative;
     height: 5px;
     background-color: #0078FF;
     position: absolute;
-    top: 110%;
-    transform: translateX(100%);
+    top: 140%;
+    transform: translateX(330%);
 }
 
 /* end-serviecs */
@@ -143,7 +167,20 @@ position: relative;
 #scal img:hover {
     transform: scale(1.1);
 }
-
+.text-portfolio h1 {
+    position: relative;
+    font-size:3rem;
+    font-weight: 700;
+}
+.text-portfolio h1::before{
+    content: " ";
+    width: 50px;
+    height: 5px;
+    background-color: #0078FF;
+    position: absolute;
+    top: 180%;
+    transform: translateX(180%);
+}
 /* end-portfolio */
 /* start-testmonial */
 .testmonial {
