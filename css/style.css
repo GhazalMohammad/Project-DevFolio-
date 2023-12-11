@@ -227,6 +227,12 @@ position: relative;
     border-radius: 50%;
     
 }
+.p-0{
+    width: 35px;
+    margin: 10px;
+    border-radius: 50%;
+    
+}
 .blog h3 {
     font-size: 3rem;
     font-weight: 700;
